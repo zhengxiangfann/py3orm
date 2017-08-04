@@ -410,7 +410,7 @@ if __name__ == "__main__":  # 一个类自带前后都有双下划线的方法�
     加上第2 * (n - 2)
     的方法。
     """
-    f = lambda n : 1 if n<2 else f(n-1) + f(n-2)
+    f = lambda n : 1 if n < 2 else f(n-1) + f(n-2)
 
     l1 = ['b', 'c', 'd', 'b', 'c', 'a', 'a']
     print({}.fromkeys(l1,'0').keys())
@@ -425,4 +425,5 @@ if __name__ == "__main__":  # 一个类自带前后都有双下划线的方法�
     l2 = []
     [l2.append(i) for i in l1 if not i in l2]
     print(l2)
+
 
